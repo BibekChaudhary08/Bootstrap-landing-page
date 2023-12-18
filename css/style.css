@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Anton&family=Anuphan:wght@500&family=Pacifico&family=Poppins:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: 'Anton', sans-serif;
+scroll-behavior: smooth;
+}
+.container-fluid .carousel-item img{
+    max-height: 100vh;
+}
+.container-fluid .carousel-caption{
+    margin-bottom: 15rem;
+}
+.container-fluid .carousel-caption h5{
+    font-size: 3rem;
+}
+.container-fluid .about{
+    background-color: rgb(222, 230, 237);
+}
+.container-fluid .about .about_img img{
+    height: 50vh;
+}
+.services{
+    background-color: rgb(197, 216, 216);
+}
+.container .service_icon i{
+    font-size: 4rem;
+    color: whitesmoke;
+}
+.services .container .card img{
+    height: 50vh;
+}
+.team .container .team_info .card-body a{
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+.team .container .team_info .card-body a:hover{
+    color:blue;
+}
+.team{
+    background-color: rgb(253, 240, 221);
+}
+.contact_us{
+    background-color:rgb(189, 216, 216);
+}
